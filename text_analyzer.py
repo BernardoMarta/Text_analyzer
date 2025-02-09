@@ -27,9 +27,7 @@ def main():
     get_language(text)
     if (most_prob_language == 'English'): #it only works well in english
         analyze_sentiment(text)
-
     print('\n')
-
 
 def count_sentences(text):
     sentences = re.split(r'\. |\.\.\. |\? |\!', text)
